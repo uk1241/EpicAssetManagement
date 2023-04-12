@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D3DB25929D303A700290DF4 /* TransferAssetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DB25829D303A700290DF4 /* TransferAssetTableViewCell.swift */; };
+		8D3DB25B29D3092200290DF4 /* TransferSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DB25A29D3092200290DF4 /* TransferSuccessViewController.swift */; };
+		8D564FA129D54F57001FB1D3 /* AssetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D564FA029D54F57001FB1D3 /* AssetTableViewCell.swift */; };
+		8D564FA329D54F8E001FB1D3 /* MyAssetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D564FA229D54F8D001FB1D3 /* MyAssetTableViewCell.swift */; };
+		8D564FA529D54FAE001FB1D3 /* AssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D564FA429D54FAE001FB1D3 /* AssetViewController.swift */; };
+		8D6F417D29D2ADE700BB092C /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F417C29D2ADE700BB092C /* ProductDetailViewController.swift */; };
+		8D7EDF9129D40323008734F4 /* MyAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7EDF9029D40323008734F4 /* MyAssetViewController.swift */; };
+		8D7FA79329D3F5BC0036A130 /* AddAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FA79229D3F5BC0036A130 /* AddAssetViewController.swift */; };
+		8D7FA79529D3F6710036A130 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FA79429D3F6710036A130 /* ImageCollectionViewCell.swift */; };
+		8D7FA79729D3F6800036A130 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FA79629D3F6800036A130 /* ImageViewController.swift */; };
+		8D9656DC29D1B2AD00C238FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9656DB29D1B2AD00C238FE /* AppDelegate.swift */; };
+		8D9656DE29D1B2AD00C238FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9656DD29D1B2AD00C238FE /* SceneDelegate.swift */; };
+		8D9656E329D1B2AD00C238FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9656E129D1B2AD00C238FE /* Main.storyboard */; };
+		8D9656E529D1B2AF00C238FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9656E429D1B2AF00C238FE /* Assets.xcassets */; };
+		8D9656E829D1B2AF00C238FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9656E629D1B2AF00C238FE /* LaunchScreen.storyboard */; };
+		8D9656F329D1B2AF00C238FE /* EpicTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9656F229D1B2AF00C238FE /* EpicTransferTests.swift */; };
+		8D9656FD29D1B2AF00C238FE /* EpicTransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9656FC29D1B2AF00C238FE /* EpicTransferUITests.swift */; };
+		8D9656FF29D1B2AF00C238FE /* EpicTransferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9656FE29D1B2AF00C238FE /* EpicTransferUITestsLaunchTests.swift */; };
+		8DEE845429D2F191009B78E6 /* SelectEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE845329D2F191009B78E6 /* SelectEmployeeViewController.swift */; };
+		8DEE845629D2F4D1009B78E6 /* SelectEmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE845529D2F4D1009B78E6 /* SelectEmployeeTableViewCell.swift */; };
+		8DEE845829D2F63B009B78E6 /* TransferAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE845729D2F63B009B78E6 /* TransferAssetViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D9656EF29D1B2AF00C238FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9656D029D1B2AD00C238FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9656D729D1B2AD00C238FE;
+			remoteInfo = EpicTransfer;
+		};
+		8D9656F929D1B2AF00C238FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9656D029D1B2AD00C238FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9656D729D1B2AD00C238FE;
+			remoteInfo = EpicTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D3DB25829D303A700290DF4 /* TransferAssetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferAssetTableViewCell.swift; sourceTree = "<group>"; };
+		8D3DB25A29D3092200290DF4 /* TransferSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSuccessViewController.swift; sourceTree = "<group>"; };
+		8D564FA029D54F57001FB1D3 /* AssetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetTableViewCell.swift; path = ../../../../EpicAssetTwo/EpicAssetTwo/secondpage/AssetTableViewCell.swift; sourceTree = "<group>"; };
+		8D564FA229D54F8D001FB1D3 /* MyAssetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAssetTableViewCell.swift; path = ../../../../EpicAssetTwo/EpicAssetTwo/MyAssetTableViewCell.swift; sourceTree = "<group>"; };
+		8D564FA429D54FAE001FB1D3 /* AssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetViewController.swift; path = ../../../../EpicAssetTwo/EpicAssetTwo/secondpage/AssetViewController.swift; sourceTree = "<group>"; };
+		8D6F417C29D2ADE700BB092C /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		8D7EDF9029D40323008734F4 /* MyAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetViewController.swift; sourceTree = "<group>"; };
+		8D7FA79229D3F5BC0036A130 /* AddAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssetViewController.swift; sourceTree = "<group>"; };
+		8D7FA79429D3F6710036A130 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = ../../../../EpicAssetManagement/EpicAssetManagement/ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D7FA79629D3F6800036A130 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../../../../EpicAssetManagement/EpicAssetManagement/ImageViewController.swift; sourceTree = "<group>"; };
+		8D9656D829D1B2AD00C238FE /* EpicTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9656DB29D1B2AD00C238FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D9656DD29D1B2AD00C238FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D9656E229D1B2AD00C238FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D9656E429D1B2AF00C238FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D9656E729D1B2AF00C238FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D9656E929D1B2AF00C238FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9656EE29D1B2AF00C238FE /* EpicTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9656F229D1B2AF00C238FE /* EpicTransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicTransferTests.swift; sourceTree = "<group>"; };
+		8D9656F829D1B2AF00C238FE /* EpicTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9656FC29D1B2AF00C238FE /* EpicTransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicTransferUITests.swift; sourceTree = "<group>"; };
+		8D9656FE29D1B2AF00C238FE /* EpicTransferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicTransferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DEE845329D2F191009B78E6 /* SelectEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmployeeViewController.swift; sourceTree = "<group>"; };
+		8DEE845529D2F4D1009B78E6 /* SelectEmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		8DEE845729D2F63B009B78E6 /* TransferAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferAssetViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9656D529D1B2AD00C238FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656EB29D1B2AF00C238FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656F529D1B2AF00C238FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9656CF29D1B2AD00C238FE = {
+			isa = PBXGroup;
+			children = (
+				8D9656DA29D1B2AD00C238FE /* EpicTransfer */,
+				8D9656F129D1B2AF00C238FE /* EpicTransferTests */,
+				8D9656FB29D1B2AF00C238FE /* EpicTransferUITests */,
+				8D9656D929D1B2AD00C238FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9656D929D1B2AD00C238FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9656D829D1B2AD00C238FE /* EpicTransfer.app */,
+				8D9656EE29D1B2AF00C238FE /* EpicTransferTests.xctest */,
+				8D9656F829D1B2AF00C238FE /* EpicTransferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9656DA29D1B2AD00C238FE /* EpicTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				8D9656DB29D1B2AD00C238FE /* AppDelegate.swift */,
+				8D9656DD29D1B2AD00C238FE /* SceneDelegate.swift */,
+				8D96570D29D1B34C00C238FE /* Cells */,
+				8D96570B29D1B31A00C238FE /* Controllers */,
+				8D9656E129D1B2AD00C238FE /* Main.storyboard */,
+				8D9656E429D1B2AF00C238FE /* Assets.xcassets */,
+				8D9656E629D1B2AF00C238FE /* LaunchScreen.storyboard */,
+				8D9656E929D1B2AF00C238FE /* Info.plist */,
+			);
+			path = EpicTransfer;
+			sourceTree = "<group>";
+		};
+		8D9656F129D1B2AF00C238FE /* EpicTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9656F229D1B2AF00C238FE /* EpicTransferTests.swift */,
+			);
+			path = EpicTransferTests;
+			sourceTree = "<group>";
+		};
+		8D9656FB29D1B2AF00C238FE /* EpicTransferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9656FC29D1B2AF00C238FE /* EpicTransferUITests.swift */,
+				8D9656FE29D1B2AF00C238FE /* EpicTransferUITestsLaunchTests.swift */,
+			);
+			path = EpicTransferUITests;
+			sourceTree = "<group>";
+		};
+		8D96570B29D1B31A00C238FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D7FA79629D3F6800036A130 /* ImageViewController.swift */,
+				8D7EDF9029D40323008734F4 /* MyAssetViewController.swift */,
+				8D564FA429D54FAE001FB1D3 /* AssetViewController.swift */,
+				8D6F417C29D2ADE700BB092C /* ProductDetailViewController.swift */,
+				8D7FA79229D3F5BC0036A130 /* AddAssetViewController.swift */,
+				8DEE845729D2F63B009B78E6 /* TransferAssetViewController.swift */,
+				8DEE845329D2F191009B78E6 /* SelectEmployeeViewController.swift */,
+				8D3DB25A29D3092200290DF4 /* TransferSuccessViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D96570D29D1B34C00C238FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D564FA029D54F57001FB1D3 /* AssetTableViewCell.swift */,
+				8D564FA229D54F8D001FB1D3 /* MyAssetTableViewCell.swift */,
+				8D7FA79429D3F6710036A130 /* ImageCollectionViewCell.swift */,
+				8D3DB25829D303A700290DF4 /* TransferAssetTableViewCell.swift */,
+				8DEE845529D2F4D1009B78E6 /* SelectEmployeeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9656D729D1B2AD00C238FE /* EpicTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D96570229D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransfer" */;
+			buildPhases = (
+				8D9656D429D1B2AD00C238FE /* Sources */,
+				8D9656D529D1B2AD00C238FE /* Frameworks */,
+				8D9656D629D1B2AD00C238FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicTransfer;
+			productName = EpicTransfer;
+			productReference = 8D9656D829D1B2AD00C238FE /* EpicTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D9656ED29D1B2AF00C238FE /* EpicTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D96570529D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransferTests" */;
+			buildPhases = (
+				8D9656EA29D1B2AF00C238FE /* Sources */,
+				8D9656EB29D1B2AF00C238FE /* Frameworks */,
+				8D9656EC29D1B2AF00C238FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9656F029D1B2AF00C238FE /* PBXTargetDependency */,
+			);
+			name = EpicTransferTests;
+			productName = EpicTransferTests;
+			productReference = 8D9656EE29D1B2AF00C238FE /* EpicTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D9656F729D1B2AF00C238FE /* EpicTransferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D96570829D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransferUITests" */;
+			buildPhases = (
+				8D9656F429D1B2AF00C238FE /* Sources */,
+				8D9656F529D1B2AF00C238FE /* Frameworks */,
+				8D9656F629D1B2AF00C238FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9656FA29D1B2AF00C238FE /* PBXTargetDependency */,
+			);
+			name = EpicTransferUITests;
+			productName = EpicTransferUITests;
+			productReference = 8D9656F829D1B2AF00C238FE /* EpicTransferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9656D029D1B2AD00C238FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8D9656D729D1B2AD00C238FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8D9656ED29D1B2AF00C238FE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8D9656D729D1B2AD00C238FE;
+					};
+					8D9656F729D1B2AF00C238FE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8D9656D729D1B2AD00C238FE;
+					};
+				};
+			};
+			buildConfigurationList = 8D9656D329D1B2AD00C238FE /* Build configuration list for PBXProject "EpicTransfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D9656CF29D1B2AD00C238FE;
+			productRefGroup = 8D9656D929D1B2AD00C238FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9656D729D1B2AD00C238FE /* EpicTransfer */,
+				8D9656ED29D1B2AF00C238FE /* EpicTransferTests */,
+				8D9656F729D1B2AF00C238FE /* EpicTransferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9656D629D1B2AD00C238FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9656E829D1B2AF00C238FE /* LaunchScreen.storyboard in Resources */,
+				8D9656E529D1B2AF00C238FE /* Assets.xcassets in Resources */,
+				8D9656E329D1B2AD00C238FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656EC29D1B2AF00C238FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656F629D1B2AF00C238FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9656D429D1B2AD00C238FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D564FA129D54F57001FB1D3 /* AssetTableViewCell.swift in Sources */,
+				8DEE845829D2F63B009B78E6 /* TransferAssetViewController.swift in Sources */,
+				8D3DB25929D303A700290DF4 /* TransferAssetTableViewCell.swift in Sources */,
+				8D7EDF9129D40323008734F4 /* MyAssetViewController.swift in Sources */,
+				8DEE845629D2F4D1009B78E6 /* SelectEmployeeTableViewCell.swift in Sources */,
+				8D7FA79329D3F5BC0036A130 /* AddAssetViewController.swift in Sources */,
+				8D7FA79729D3F6800036A130 /* ImageViewController.swift in Sources */,
+				8D564FA529D54FAE001FB1D3 /* AssetViewController.swift in Sources */,
+				8D7FA79529D3F6710036A130 /* ImageCollectionViewCell.swift in Sources */,
+				8DEE845429D2F191009B78E6 /* SelectEmployeeViewController.swift in Sources */,
+				8D6F417D29D2ADE700BB092C /* ProductDetailViewController.swift in Sources */,
+				8D9656DC29D1B2AD00C238FE /* AppDelegate.swift in Sources */,
+				8D564FA329D54F8E001FB1D3 /* MyAssetTableViewCell.swift in Sources */,
+				8D9656DE29D1B2AD00C238FE /* SceneDelegate.swift in Sources */,
+				8D3DB25B29D3092200290DF4 /* TransferSuccessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656EA29D1B2AF00C238FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9656F329D1B2AF00C238FE /* EpicTransferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9656F429D1B2AF00C238FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9656FF29D1B2AF00C238FE /* EpicTransferUITestsLaunchTests.swift in Sources */,
+				8D9656FD29D1B2AF00C238FE /* EpicTransferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D9656F029D1B2AF00C238FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9656D729D1B2AD00C238FE /* EpicTransfer */;
+			targetProxy = 8D9656EF29D1B2AF00C238FE /* PBXContainerItemProxy */;
+		};
+		8D9656FA29D1B2AF00C238FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9656D729D1B2AD00C238FE /* EpicTransfer */;
+			targetProxy = 8D9656F929D1B2AF00C238FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D9656E129D1B2AD00C238FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9656E229D1B2AD00C238FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D9656E629D1B2AF00C238FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9656E729D1B2AF00C238FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D96570029D1B2AF00C238FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D96570129D1B2AF00C238FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D96570329D1B2AF00C238FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EpicTransfer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucent.personix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D96570429D1B2AF00C238FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EpicTransfer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucent.personix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D96570629D1B2AF00C238FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsteam.EpicTransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicTransfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpicTransfer";
+			};
+			name = Debug;
+		};
+		8D96570729D1B2AF00C238FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsteam.EpicTransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicTransfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpicTransfer";
+			};
+			name = Release;
+		};
+		8D96570929D1B2AF00C238FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsteam.EpicTransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicTransfer;
+			};
+			name = Debug;
+		};
+		8D96570A29D1B2AF00C238FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appsteam.EpicTransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicTransfer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9656D329D1B2AD00C238FE /* Build configuration list for PBXProject "EpicTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D96570029D1B2AF00C238FE /* Debug */,
+				8D96570129D1B2AF00C238FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D96570229D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D96570329D1B2AF00C238FE /* Debug */,
+				8D96570429D1B2AF00C238FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D96570529D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D96570629D1B2AF00C238FE /* Debug */,
+				8D96570729D1B2AF00C238FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D96570829D1B2AF00C238FE /* Build configuration list for PBXNativeTarget "EpicTransferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D96570929D1B2AF00C238FE /* Debug */,
+				8D96570A29D1B2AF00C238FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D9656D029D1B2AD00C238FE /* Project object */;
+}

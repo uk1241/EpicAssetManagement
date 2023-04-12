@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng-external-storage-seagate-technology-hard-drives-we-external-hard-drive-5b57b08fc2e740.8491917215324734877983.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kisspng-external-storage-seagate-technology-hard-drives-we-external-hard-drive-5b57b08fc2e740.8491917215324734877983@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kisspng-external-storage-seagate-technology-hard-drives-we-external-hard-drive-5b57b08fc2e740.8491917215324734877983@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
